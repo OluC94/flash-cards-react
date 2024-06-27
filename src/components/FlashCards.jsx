@@ -12,7 +12,7 @@ export default function FlashCards() {
     return (
         <main >
             <h1>Hiragana Flashcards </h1>
-            <Reset/>
+            <Reset setCards={setCards}/>
             <div className="flashcard-area">{cardElements}</div>
         </main>
 

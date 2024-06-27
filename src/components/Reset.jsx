@@ -1,10 +1,12 @@
-export default function Reset(){
+import hiraganaData from "../hiragana-data"
+
+export default function Reset(props){
 
     function handleReset() {
-        console.log('reset clicked')
+       props.setCards(hiraganaData)
     }
 
     return (<button onClick={handleReset}>
-        Reset
+        Hide all
     </button>)
 }
