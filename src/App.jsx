@@ -1,10 +1,11 @@
-import { DemonstratingProps } from "./components/demo/DemonstratingProps";
+import FlashCards from "./components/FlashCards";
+
 
 function App() {
     return (
         <div>
-            <h1>App component</h1>
-            <DemonstratingProps />
+            <FlashCards/>
+    
         </div>
     );
 }
