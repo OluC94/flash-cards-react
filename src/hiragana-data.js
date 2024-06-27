@@ -43,6 +43,5 @@ export default [
     { sound: "ya", character: "や", showSound: false },
     { sound: "yo", character: "よ", showSound: false },
     { sound: "yu", character: "ゆ", showSound: false },
-    { sound: "n", character: "ん", showSound: false }
-  ];
-  
+    { sound: "n", character: "ん", showSound: false },
+];

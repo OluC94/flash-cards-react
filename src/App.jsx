@@ -1,10 +1,9 @@
 import FlashCards from "./components/FlashCards";
 
-
 function App() {
     return (
         <div>
-            <FlashCards/>
+            <FlashCards />
         </div>
     );
 }
